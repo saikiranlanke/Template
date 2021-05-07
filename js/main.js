@@ -4,7 +4,7 @@
 document.title = "CMI HOSPITAL"
 document.title = 'ASTER ' + document.title
 
-// List Elements
+// List 
     var listone, text, listLen, i;
     listone = [
     "Autologous Bone Marrow Transplant - Marrow cells are collected from the patient’s own body and transfused back after high dose chemotherapy.",
@@ -23,5 +23,31 @@ document.title = 'ASTER ' + document.title
     document.getElementById("types").innerHTML = text;
 
 
+
+
+    $(document).ready(function(){
+    GetLinks();
+    });
+    function GetLinks() {
+            var row = '';
+            var obj = {
+  "1.png": "Failure to thrive – not gaining weight and height as per the age norms",
+  "2.png": "Infections warranting multiple hospitalizations",
+  "3.png": "Requirement of intravenous antibiotics to clear infections",
+  "4.png": "2 or more episodes of pneumonia",
+  "5.png": "Family history of death of children at young age due to immune deficiency ",
+  "6.png": "Repeated episodes of diarrhea",
+  "7.png": "2 or more episodes of sinus infections within a year",
+  "8.png": "2 or more episodes of ear discharge",
+  "9.png": "Repeated skin infections",
+  "10.png": "Repeated abscess formation (liver abscess, brain abscess)",
+};
+            $.each(obj, function (key, val) {
+                row += "<div class='col-md-3 p-3'><div class='p-3 b-light'><div class='w-50'><img src='images/"+key+"' class='pb-3'></div><p class='f-l'>"+val+"</p></div></div>";
+                
+            });
+
+           $("#icon").html(row);
+        }
 
 
