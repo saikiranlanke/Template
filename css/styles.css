@@ -1,0 +1,29 @@
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+.txt-one { letter-spacing: 1.28px; line-height: 40px; }
+.txt-two { letter-spacing: 3.59px; }
+.aster-logo-white { width: 239px; height: 239px; }
+.mask { width: 100%; height: auto; background: url("../images/Banner_mage.png") top left; background-attachment: scroll; background-size: auto; background-size: cover; position: relative; }
+.book-btn { border-radius: 3.2px; width: 186px; height: 45px; border: 1px solid transparent; }
+.book-btn:focus { box-shadow: 0 0 0 0; }
+.enquire-form { box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18); width: 339px; height: 492px; }
+.input-bx { display: block; width: 100%; height: calc(1.5em + .75rem + 6px); padding: .375rem .75rem; font-size: 1rem; font-weight: 400; line-height: 1.5; background-clip: padding-box; border-radius: 0 !important; }
+.g-background { display: flex; align-items: center; justify-content: center; background-image: linear-gradient(to right, #2EC4B8 0%, #6078EA 100%); border-radius: 4px; min-height: 100px; }
+.p-text { letter-spacing: 1.28px; }
+.d-text { letter-spacing: 1.28px; }
+.h-text {  font-size: 20px; padding-top: 18px; padding-bottom: 18px; letter-spacing: 1.6px; }
+.d-btn { background-image: linear-gradient(to right, #17EAD9 0%, #6078EA 100%); border-radius: 3.2px; width: auto; height: 45px; border: 1px solid transparent; padding-left: 1rem; padding-right: 1rem; border: 0px; }
+.s-b { display: flex; align-items: center; justify-content: left; border-bottom: 1px solid #ECECFF; min-height: 100px; padding: 10px; }
+.p-icon { background: url("../images/hospital (2) copy 3.png") no-repeat scroll 1px 5px transparent; list-style-position: inside; padding: 0 30px; padding-bottom: 25px; list-style-type: none; font-size: 14px; }
+.t-icon { background: url("../images/double-tick-indicator.png") no-repeat scroll 1px 5px transparent; list-style-position: inside; padding: 0 30px; padding-bottom: 25px; list-style-type: none; font-size: 14px; }
+.b-light { min-height: 180px; border-radius: 2px; }
+.mt-t { margin-top: 2px; }
+.w-50{width: 50px;height: 50px;}
+.ba-btn { border-radius: 3.2px; width: 186px; height: 45px; border: 1px solid transparent; }
+
+/*Media Queries*/
+@media only screen and (max-width: 768px) {
+  .enquire-form{width: auto;}
+}
+
+
+

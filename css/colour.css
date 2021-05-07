@@ -1,0 +1,31 @@
+/*Font CSS*/
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+@font-face { font-family: 'Stag Sans'; src: url("../font/StagSans-Regular.ttf"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Stag Sans'; src: url("../font/StagSans-Light.ttf"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Stag Sans'; src: url("../font/StagSans-Bold.ttf"); font-weight: bold; font-style: normal; }
+@font-face { font-family: 'Stag Sans'; src: url("../font/StagSans-Medium.ttf"); font-weight: 500; font-style: normal; }
+.f-r { font-family: 'Stag Sans', sans-serif; font-weight: normal; }
+.f-l { font-family: 'Stag Sans', sans-serif; font-weight: 300; }
+.f-b { font-family: 'Stag Sans', sans-serif; font-weight: bold; }
+.f-m { font-family: 'Stag Sans', sans-serif; font-weight: 500; }
+.txt-one { font-size: 31px; font-family: 'Titillium Web', sans-serif; font-weight: bold;}
+.txt-two { font-family: 'Stag Sans', sans-serif; font-weight: 300;}
+.p-text { color: #22B78E; font-family: 'Stag Sans', sans-serif; }
+.d-text { color: #1D5AA6; font-family: 'Stag Sans', sans-serif; font-weight: 500; }
+.h-text { font-family: 'Stag Sans', sans-serif; font-weight: 500;}
+
+
+/*Colour Css*/
+.txt-one { color: #fff; letter-spacing: 1.28px; line-height: 40px; }
+.txt-two { color: #fff; letter-spacing: 3.59px; }
+.book-btn { background-color: #DD5A6A; color: #fff;}
+.enquire-form { background-color: #FFFFFF;}
+.input-bx { color: #495057; background-color: #fff; border: 1px solid #ced4da;}
+.h-text {  font-size: 20px; color: #1D5AA6;}
+.b-light { border: 1px solid #E5EAFF;}
+.b-input { border: 1px solid #ced4da; }
+.c-bg { background: #444; }
+.d-btn{ color: #fff;}
+.d-bg { background-color: #F9F9FF;}
+.footer { background-color: #272727; }
+.ba-btn{ background-color: #004498;color: #fff;}
